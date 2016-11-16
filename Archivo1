@@ -1,0 +1,38 @@
+1- El comando "mv" copia a la dirección destino y borra de la direccón origen.
+En cambio "cp" copia a la dirección destino y mantiene el archivo en la dire-
+cción origen.
+
+2-El comando "rmdir" solo remueve directorios vacíos, en cambio el comando
+"rm" remueve archivos y/o directorios.
+
+3-La opción "-R" copia en recursividad.
+
+4-La diferencia es que el > crea archivos y si ya existe el archivo lo sobre-
+escribe, en cambio el touch crea archivos y si ya existe el archivo le cambia
+la fecha
+
+5-
+mkdir Analista
+cd Analista
+mkdir "Programación II"
+mkdir matemática
+mkdir "Sistemas Operativos"
+cd "Sistemas Operativos"
+mkdir Alumnos
+cd Alumnos
+mkdir Notas
+
+6- echo "Juan Rodrigo" > "juan.txt"
+cp juan.txt Analista/Sistemas Operativos/Alumnos
+
+7- cp /etc/motd Analista/Matemática
+
+8- rm -R Sistemas Operativos
+
+9- mv Notas Notas_Viejas
+
+10- cd Analista/Sistemas Operativos/Alumnos
+touch Mis_Alumnos
+
+11-	cd /
+ ls -l > Mis_Alumnos
